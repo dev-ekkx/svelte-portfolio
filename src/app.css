@@ -1,1 +1,17 @@
 @import 'tailwindcss';
+
+* {
+    font-family: "Libre Caslon Display", serif;
+    font-size: 1rem;
+}
+
+html, body {
+    background-color: var(--color-background);
+    color: var(--color-primary);
+}
+
+@theme {
+    --color-primary: oklch(0.76 0.0202 262.99);
+    --color-background: oklch(0.29 0.014 261.7);
+    --color-secondary: oklch(0.69 0.164 318.63);
+}
