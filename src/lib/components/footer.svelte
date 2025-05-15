@@ -1,11 +1,16 @@
+<svelte:head>
+	<title>Dela Ricch - Emmanuel Kpendo | Front-end Engineer</title>
+	<meta name="description" content="This is where the description goes for SEO" />
+	<meta name="keywords" content="Emmanuel Kpendo, Dela Ricch, frontend developer, frontend engineer, front-end, back-end, fullstack web developer portfolio, Svelte developer, Angular Developer, React Developer, Nextjs Developer" />
+	<meta name="author" content="Emmanuel Kpendo, Dela Ricch" />
+</svelte:head>
+
 <script lang="ts">
 	import LogoComponent from '$lib/components/logo.svelte';
 	import { socialMediaLinks } from '$lib/constants';
-
-
 </script>
 
-<footer class="py-8 border-t-4 g-padding border-white flex flex-col gap-6">
+<footer class="py-6 border-t-4 g-padding border-white flex flex-col gap-6">
 	<section class="flex items-center justify-between">
 		<div class="flex flex-col">
 			<div class="flex gap-6 items-center">
@@ -26,4 +31,8 @@
 		</div>
 	</div>
 	</section>
+
+	<div class="mx-auto">
+		&copy; Copyright {new Date().getFullYear()} - Dela Ricch
+	</div>
 </footer>
