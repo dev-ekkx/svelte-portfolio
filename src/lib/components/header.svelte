@@ -20,7 +20,10 @@
 </script>
 
 <header class="flex items-center justify-between h-[5rem] g-padding">
-<div class="">logo</div>
+	<div class="w-max relative">
+	<img src="/images/logo.png" alt="logo" class="w-20">
+	<span class="text-2xl text-white font-link text-[0.9rem] absolute -right-11 top-2/5">Dela Ricch</span>
+	</div>
 	<nav>
 		<ul class="flex items-center gap-4">
 			{#each links as link (link)}
@@ -32,7 +35,7 @@
 				<a
 					onclick={() => setActivePage(link === 'home' ? ' ' : `${link}`)}
 					href={link === "home" ? "/" : `#${link}`}
-					 class={cn("text-white flex capitalize  hover:text-secondary transition-all", {
+					 class={cn("font-link text-white flex capitalize hover:text-secondary transition-all", {
 				"text-secondary": link === "home" ? activePage === " " : activePage === `${link}`,
 			})}>
 
