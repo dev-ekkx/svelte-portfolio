@@ -1,0 +1,1 @@
+<main class="min-h-[80vh]"></main>

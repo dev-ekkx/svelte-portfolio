@@ -9,7 +9,7 @@
 }
 
 @utility g-padding {
-    @apply px-[5vw]
+    @apply px-[5vw] lg:px-[8vw]
 }
 
 html, body {
