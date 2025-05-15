@@ -2,7 +2,7 @@
 
 * {
     font-family: "Libre Caslon Display", serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 html, body {
@@ -14,4 +14,8 @@ html, body {
     --color-primary: oklch(0.76 0.0202 262.99);
     --color-background: oklch(0.29 0.014 261.7);
     --color-secondary: oklch(0.69 0.164 318.63);
+}
+
+@utility g-padding {
+    @apply px-[5vw]
 }
