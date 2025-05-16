@@ -18,11 +18,9 @@
 		activePage = page
 	}
 
-
 </script>
 
 <header class="flex items-center justify-between h-[5rem] g-padding">
-
 		<LogoComponent />
 
 	<nav>
@@ -31,7 +29,6 @@
 			<li class="relative">
 					<span class={cn("absolute w-0 left-0 bottom-0.5 h-0.5 bg-secondary transition-all duration-200 ease-linear", {
 				"w-full": link === "home" ? activePage === " " : activePage === `${link}`,
-
 					})}></span>
 				<a
 					onclick={() => setActivePage(link === 'home' ? ' ' : `${link}`)}
